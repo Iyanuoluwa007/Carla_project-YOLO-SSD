@@ -59,5 +59,7 @@ This project demonstrates a CNN-based robotic vision system built in the [CARLA 
 - **Ultralytics Datasets Overview** – Refer to the Ultralytics YOLO Docs for a comprehensive guide on datasets.  
   - Available at: [https://docs.ultralytics.com/datasets/](https://docs.ultralytics.com/datasets/)
 
+### Video output:
+[▶️ YOLO with Bytetrack Video](https://github.com/Iyanuoluwa007/Carla/blob/main/Carla%20Bytetrack.mp4)
 
-
+[▶️ YOLO with StrongSort Video](https://github.com/Iyanuoluwa007/Carla/blob/main/Carla%20Strongsort.mp4)
