@@ -1,0 +1,11 @@
+vehicle.sprinter.mercedes
+vehicle.ambulance.ford
+vehicle.firetruck.actors
+vehicle.lincoln.mkz
+vehicle.dodgecop.charger
+vehicle.mini.cooper
+vehicle.dodge.charger
+vehicle.fuso.mitsubishi
+vehicle.nissan.patrol
+vehicle.carlacola.actors
+vehicle.taxi.ford
