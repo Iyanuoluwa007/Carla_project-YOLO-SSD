@@ -10,7 +10,7 @@ This project demonstrates a CNN-based robotic vision system built in the [CARLA 
 
 ### ⚙️ Object Detection: YOLO
 
-- YOLOv11n was trained using the **BDD100K** dataset and CARLA-generated images.
+- [YOLOv11n](https://docs.ultralytics.com/tasks/detect/#models) was trained using the **BDD100K** dataset and CARLA-generated images.
 - Detection classes included: `car`, `bus`, `truck`, `bike`, `person`, `traffic light`, etc.
 - Achieved **mAP@0.5 = 0.444**, with high precision for frequent classes like `car` and `bus`.
 - Real-time performance suitable for mobile and embedded applications.
