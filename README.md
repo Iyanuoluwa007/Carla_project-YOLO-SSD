@@ -63,6 +63,3 @@ This project demonstrates a CNN-based robotic vision system built in the [CARLA 
 [▶️ YOLO with Bytetrack Video](https://github.com/Iyanuoluwa007/Carla/blob/main/Carla%20Bytetrack.mp4)
 
 [▶️ YOLO with StrongSort Video](https://github.com/Iyanuoluwa007/Carla/blob/main/Carla%20Strongsort.mp4)
-
-[![Demo](https://img.shields.io/badge/Watch-Demo-red)](https://github.com/Iyanuoluwa007/Carla/blob/main/Carla%20Strongsort.mp4)
-
