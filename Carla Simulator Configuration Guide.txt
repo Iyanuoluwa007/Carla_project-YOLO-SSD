@@ -1,0 +1,87 @@
+Carla Simulator Configuration Guide
+
+Step to Configure Your System for Carla Simulator
+
+Documentation
+For detailed setup instructions, visit: [CARLA Documentation](https://carla.readthedocs.io/en/latest/build_windows/)
+
+Software Used
+- Unreal Engine
+- Anaconda(Jupyter Notebook)
+
+Required Libraries
+Run the following commands in Anaconda Prompt to install the necessary packages:
+
+# Install Carla and essential Python libraries
+pip install carla pygame
+
+# Create and activate a virtual environment
+conda create -n cvcourse_env python=3.9 -y
+conda activate cvcourse_env
+
+# Install necessary dependencies
+conda install numpy==1.23.5 jupyter opencv
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+conda install scipy=1.1.0 mkl=2018.0.3 -c defaults
+conda install pyqt=5.9.2 sip=4.19.8
+conda install jupyter matplotlib
+conda install -c conda-forge tensorflow
+conda install -c conda-forge opencv
+
+
+Verify Installation
+To confirm all installed packages, run:
+conda list && echo "=== Pip packages ===" && pip list
+
+
+Carla Environment Setup
+Navigate to the CARLA Directory
+cd C:\Carla-0.10.0\PythonAPI\examples
+
+Setting Up a Carla Simulation Environment
+# Create a dedicated environment for Carla
+conda create --name carla-sim python=3.7 -y
+
+# Activate the environment
+conda activate carla-sim
+
+# Deactivate when finished
+conda deactivate
+
+Change Directory to Your Learning Folder
+cd C:\Carla-0.10.0\PythonAPI\Learning
+
+cd "C:\Users\okeiy\OneDrive - University of Salford\Documents\Sch Notes\Dissertation\Codes
+
+
+Launch Jupyter Notebook for Carla Development
+jupyter notebook
+
+
+
+// Incase Kernel is crashing:
+import os
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+
+
+To activate the Environment:
+Locate file 'carla-sim'
+
+and 'conda env create -f carla-sim.yml'
+
+then 'conda activate carla-sim'
+
+(https://docs.ultralytics.com/datasets/)
+Label-Studio
+creating label/annotation manual using Label-studio, but this is a time consuming technique since im working with 100k, train: 70k, Val: 10k, test: 20k. Therefore downloading a datatset with label is the best option due to the time frame available for this project.
+Label-studio: 
+cd C:\Users\okeiy\OneDrive - University of Salford\Documents\Sch Notes\Dissertation\Codes\label_studio
+
+'conda activate yolo'
+
+'conda deactivate'
+
+label-studio
+
+
+https://chatgpt.com/c/67b7b9e9-4b54-8012-ad9c-a2c59a0ae34a
