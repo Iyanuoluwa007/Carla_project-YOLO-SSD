@@ -69,3 +69,10 @@ https://github.com/Iyanuoluwa007/Carla/blob/main/Screenshot%202025-03-14%2013561
 [▶️ YOLO with Bytetrack Video](https://github.com/Iyanuoluwa007/Carla/blob/main/Carla%20Bytetrack.mp4)
 
 [▶️ YOLO with StrongSort Video](https://github.com/Iyanuoluwa007/Carla/blob/main/Carla%20Strongsort.mp4)
+
+### 📄 Project Report
+
+You can access the full MSc report that documents the **system architecture, dataset preparation, model training pipeline, evaluation, and results** below:
+
+**[🔗 Read Full Report (PDF)](https://github.com/Iyanuoluwa007/Carla_project-YOLO-SSD/blob/main/00659936_Iyanuoluwa_Oke_Report.pdf)**  
+
