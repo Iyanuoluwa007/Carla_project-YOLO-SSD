@@ -1,0 +1,27 @@
+# data.yaml for YOLO training
+
+path: "C:/Users/okeiy/OneDrive - University of Salford/Documents/Sch Notes/Dissertation/Codes/Dataset/Yolo/bdd100k"
+
+# Path to the training images folder
+train: "C:/Users/okeiy/OneDrive - University of Salford/Documents/Sch Notes/Dissertation/Codes/Dataset/Yolo/bdd100k/train/images"
+
+# Path to the validation images folderg
+val: "C:/Users/okeiy/OneDrive - University of Salford/Documents/Sch Notes/Dissertation/Codes/Dataset/Yolo/bdd100k/val/images"
+
+test: "C:/Users/okeiy/OneDrive - University of Salford/Documents/Sch Notes/Dissertation/Codes/Dataset/Yolo/bdd100k/test/images"
+
+# List of class names in order (0-indexed)
+names:
+  0: bike
+  1: bus
+  2: car
+  3: motor
+  4: person
+  5: rider
+  6: traffic light
+  7: traffic sign
+  8: train
+  9: truck
+
+nc: 10
+

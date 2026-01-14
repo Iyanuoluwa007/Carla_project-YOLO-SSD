@@ -1,0 +1,21 @@
+# data.yaml for YOLO training
+
+path: "C:/Users/okeiy/OneDrive - University of Salford/Documents/Sch Notes/Dissertation/Codes/Dataset/Yolo/road_sign"
+
+# Path to the training images folder
+train: "C:/Users/okeiy/OneDrive - University of Salford/Documents/Sch Notes/Dissertation/Codes/Dataset/Yolo/road_sign/train/images"
+
+# Path to the validation images folder
+val: "C:/Users/okeiy/OneDrive - University of Salford/Documents/Sch Notes/Dissertation/Codes/Dataset/Yolo/road_sign/val/images"
+
+# Path to the test images folder
+test: "C:/Users/okeiy/OneDrive - University of Salford/Documents/Sch Notes/Dissertation/Codes/Dataset/Yolo/road_sign/test/images"
+
+# List of class names in order (0-indexed)
+names:
+  0: crosswalk
+  1: speedlimit
+  2: stop
+  3: trafficlight
+
+nc: 4
