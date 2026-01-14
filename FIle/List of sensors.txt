@@ -1,0 +1,23 @@
+Cameras:
+sensor.camera.optical_flow
+sensor.camera.depth
+sensor.camera.normals
+sensor.camera.dvs
+sensor.camera.rgb
+sensor.camera.semantic_segmentation
+sensor.camera.instance_segmentation
+
+
+Other Sensors:
+sensor.other.collision
+sensor.other.lane_invasion
+sensor.other.imu
+sensor.other.gnss
+sensor.other.obstacle
+sensor.other.radar
+sensor.other.rss
+
+
+LiDAR Sensors:
+sensor.lidar.ray_cast
+sensor.lidar.ray_cast_semantic
